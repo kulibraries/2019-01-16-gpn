@@ -221,6 +221,10 @@ and our administrator may contact you if we need any extra information.</h4>
   {% include lc/schedule.html %}
 {% endif %}
 
+<hr/>
+
+<h2 id="notes">Notes</h2>
+
 {% comment %}
   Collaborative Notes
 
@@ -233,7 +237,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a>, called an Etherpad, for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
