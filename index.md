@@ -92,7 +92,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. Visitors to KU should consult KU Parking's <a href="http://parking.ku.edu/visitor-parking">information for visitors</a> and <a href="http://parking.ku.edu/sites/parking.drupal.ku.edu/files/files/parkingmap.pdf">map</a> (PDF).
 </p>
 {% endif %}
 
