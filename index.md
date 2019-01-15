@@ -232,7 +232,7 @@ eventbrite: 53749349752  # optional: alphanumeric key for Eventbrite registratio
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a>, called an Etherpad, for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="{{page.collaborative_notes}}" target="_blank">collaborative document</a>, called an Etherpad, for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
